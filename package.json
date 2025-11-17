@@ -1,0 +1,39 @@
+{
+  "name": "minds-eye-playground",
+  "version": "0.1.0",
+  "description": "Playground sandbox for the Google-native Mind's Eye OS. Contains experiments, mock data, and prototype scripts for events, LAW-T, search, and Google Workspace flows.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "mock": "ts-node experiments/mockEvents.ts",
+    "lawt": "ts-node experiments/lawTLabelingPlay.ts",
+    "search": "ts-node experiments/searchEnginePrototype.ts",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "mindseye",
+    "minds-eye",
+    "minds-eye-playground",
+    "playground",
+    "experiments",
+    "mock-data",
+    "kaggle",
+    "colab",
+    "sandbox",
+    "google-workspace",
+    "law-t",
+    "agentic-os",
+    "typescript",
+    "sageworks-ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "ts-node": "^10.9.2",
+    "@types/node": "^22.0.0"
+  }
+}
