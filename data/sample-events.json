@@ -1,0 +1,26 @@
+[
+  {
+    "id": "gmail_mock_1",
+    "source": "gmail",
+    "kind": "gmail.message",
+    "createdAt": "2025-11-16T09:15:00.000Z",
+    "payload": {
+      "subject": "Welcome to Mind's Eye",
+      "from": "noreply@example.com",
+      "snippet": "This is a mock Gmail event."
+    }
+  },
+  {
+    "id": "calendar_mock_1",
+    "source": "calendar",
+    "kind": "calendar.event",
+    "createdAt": "2025-11-16T10:00:00.000Z",
+    "payload": {
+      "summary": "Daily standup",
+      "description": "Quick sync.",
+      "start": {
+        "dateTime": "2025-11-16T10:00:00.000Z"
+      }
+    }
+  }
+]
